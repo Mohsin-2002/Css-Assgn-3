@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-nav {
+  width: 100%;
+  background-color: #fff;
+  min-height: 50px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+.container-nav h1 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.container-nav h1{
+  font-weight: 100;
+  margin-left: 20px;
+  font-size: 15px;
+  margin-top: 10px;
+  
+}
+
+.container-nav a {
+  padding: 10px 15px;
+  font-size: 15px;
+  color: black;
+  float: right;
+  text-decoration: none;
+  display: block;
+  
+}
+.container-nav a:hover {
+  background-color: #ccc;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+  .container-nav {
+    box-shadow: none;
+  }
+
+  .container-nav h1 {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .container-nav a {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 5px;
+    border: 1px solid #555 ;
+    font-size: 16px;
+  }
+
+  .container-nav a:hover {
+    background: #555;
+    color: #fff;
+  }
+}
+/* header media query end */
+
+.container1 {
+  width: 70%;
+  margin: auto;
+  background-image: url(../assets/images/architect.jpg);
+  height: 500px;
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container2 {
+  width: 70%;
+  margin: auto;
+}
+
+.container2 .container-projectimg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container2 .container-projectimg .container-img{
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden; 
+}
+
+.container-projectimg .container-img .img-text{
+  position: absolute;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 5px 8px;
+  z-index: 1;
+ top: 0%;
+}
+
+.container3 {
+  width: 70%;
+  margin: auto;
+}
+
+.container4 {
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+
+.container5 {
+  width: 70%;
+  margin: auto;
+}
+
+.container6{
+  width: 70%;
+  margin: auto;
+}
+
+#boxsize{
+  padding: 5px;
+}
+
+.container1 h1{
+  color: white;
+}
+
+.container1 h1 span{
+
+  background-color: black;
+}
+
+.btn{
+  padding: 4px 90px;
+  border: none;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn2{
+  padding: 5px;
+  background-color: black;
+  color: white;  
+}
+
+.btn2:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
